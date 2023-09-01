@@ -5,21 +5,21 @@ var MENU = {
             "img": "./img/cardapio/trufa/dois-amores.png",
             "name": "Dois Amores (Trufa)",
             "dsc": "Dois Amores (Trufa)",
-            "price": 3.50
+            "price": 4
         },
         {
             "id": "trufa-cereja",
             "img": "./img/cardapio/trufa/cereja.png",
             "name": "Cereja (Trufa)",
             "dsc": "Cereja (Trufa)",
-            "price": 3.50
+            "price": 4
         },
         {
             "id": "trufa-limao",
             "img": "./img/cardapio/trufa/limao.png",
             "name": "Limão (Trufa)",
             "dsc": "Limão (Trufa)",
-            "price": 3.50
+            "price": 4
         },
     ],
     "paodemel": [

@@ -43,12 +43,12 @@ cardapio.metodos = {
             .replace(/\${id}/g, e.id)
 
             // botão ver mais foi clicado (12 itens)
-            if (vermais && i >= 8 && i < 12) {
+            if (vermais && i >= 4 && i < 12) {
                 $("#itensCardapio").append(temp)
             }
 
             // paginação inicial (8 itens)
-            if (!vermais && i < 8) {
+            if (!vermais && i < 4) {
                 $("#itensCardapio").append(temp)
             }
 
@@ -533,6 +533,8 @@ cardapio.metodos = {
     carregarBotaoLigar: () => {
 
         $("#btnLigar").attr('href', `tel:${CELULAR_EMPRESA}`);
+        $("#btnLigar_2").attr('href', `tel:${CELULAR_EMPRESA}`);
+        $("#btnLigar_3").attr('href', `tel:${CELULAR_EMPRESA}`);
 
     },
 
@@ -542,10 +544,15 @@ cardapio.metodos = {
         $("#depoimento-1").addClass('hidden');
         $("#depoimento-2").addClass('hidden');
         $("#depoimento-3").addClass('hidden');
+        $("#depoimento-4").addClass('hidden');
+        $("#depoimento-5").addClass('hidden');
 
         $("#btnDepoimento-1").removeClass('active');
         $("#btnDepoimento-2").removeClass('active');
         $("#btnDepoimento-3").removeClass('active');
+        $("#btnDepoimento-4").removeClass('active');
+        $("#btnDepoimento-5").removeClass('active');
+
 
         $("#depoimento-" + depoimento).removeClass('hidden');
         $("#btnDepoimento-" + depoimento).addClass('active');

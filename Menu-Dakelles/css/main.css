@@ -375,17 +375,27 @@ a.navbar-brand {
 }
 
 #depoimento-1 .imagem-depoimento {
-    background-image: url(../img/diego.jpg);
+    background-image: url(../img/Ana.jpg);
     background-size: cover;
 }
 
 #depoimento-2 .imagem-depoimento {
-    background-image: url(../img/ana.jpg);
+    background-image: url(../img/Bruna.jpg);
     background-size: cover;
 }
 
 #depoimento-3 .imagem-depoimento {
-    background-image: url(../img/joao.jpg);
+    background-image: url(../img/Larissa.jpg);
+    background-size: cover;
+}
+
+#depoimento-4 .imagem-depoimento {
+    background-image: url(../img/ivana.jpg);
+    background-size: cover;
+}
+
+#depoimento-5 .imagem-depoimento {
+    background-image: url(../img/Alana.jpg);
     background-size: cover;
 }
 
